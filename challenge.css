@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: #ECEEEF;
+  flex-flow: column nowrap;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  /* Modal Content/Box */
+}
+body section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+body P {
+  font-size: 1rem;
+  color: #303D46;
+  padding: 10px;
+}
+body .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+body .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  /* 15% from the top and centered */
+  padding: 10px;
+  border: 1px solid #888;
+  width: 30%;
+  /* Could be more or less, depending on screen size */
+  height: auto;
+  border-radius: 1%;
+  /* Rounded corners */
+  box-shadow: 0px 0px 10px grey;
+  /* Add a little shadow to the modal */
+  max-height: calc(100vh - 400px);
+  overflow-y: auto;
+  /* Scrollable content */
+}
+body .wide {
+  width: 95%;
+  justify-content: center;
+  text-align: left;
+}
+body td {
+  text-align: left;
+  padding: 0.3%;
+}
+body th {
+  width: 22%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-bottom: 1px solid #ddd;
+}
+body h3 {
+  color: orangered;
+  padding: 10px;
+}
+body table {
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px grey;
+  /* Add a little shadow */
+  background-color: #F5F6F7;
+}/*# sourceMappingURL=challenge.css.map */
